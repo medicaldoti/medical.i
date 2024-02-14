@@ -1,0 +1,55 @@
+/* part3 */
+.slide-in {
+	overflow: hidden;
+    display: inline-block;
+}
+
+.slide-in_inner {
+	display: inline-block;
+
+}
+
+.rightAnime{
+    opacity: 0;
+}
+
+.slideAnimeLeftRight {
+	animation-name:slideTextX-100;
+	animation-duration:5s;
+  animation-delay: 2s;
+	animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+@keyframes slideTextX100 {
+  from {
+	transform: translateX(-100%);
+        opacity: 0;
+  }
+
+  to {
+	transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideAnimeRightLeft {
+	animation-name:slideTextX100;
+	animation-duration:5s;
+  animation-delay: 2s;
+	animation-fill-mode:forwards;
+    opacity: 0;
+}
+
+
+@keyframes slideTextX-100 {
+  from {
+	transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+	transform: translateX(0);
+    opacity: 1;
+  }
+}

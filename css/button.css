@@ -1,0 +1,10 @@
+
+img.btn_11:hover{
+  opacity:0.5;
+}
+
+@media (max-width: 580px) {
+  img.btn_11{
+    width:60%;
+  }
+}

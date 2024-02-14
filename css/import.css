@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* style */
+@import url(style.css);
+@import url(header.css);
+@import url(index-1.css);
+@import url(text.css);
+@import url(marginmaintain.css);
+
+/* animation */
+@import url(slider.css);
+@import url(flickity/slider3.css);
+@import url(flickity/flickity.css);
+@import url(flickity/flickity_button.css);
+@import url(textanimation.css);
+@import url(modal.css);
+@import url(imageanimation.css);
+@import url(button.css);
+/* @import url(loader.css); */

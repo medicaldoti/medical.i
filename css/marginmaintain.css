@@ -1,0 +1,66 @@
+
+.mt_1{
+  object-position: 50% 100%;
+}
+.mt_2{
+  object-position: 50% 32%;
+  /* object-position: 50% 90%; */
+}
+.mt_3{
+	object-position: 100% 0%;
+}
+.mt_4{
+  object-position: 0% 100%;
+}
+
+.m_el0{
+	object-position: left top;
+}
+.m_el1{
+  object-position: right top;
+}
+.m_el5_frame{
+  max-width:800px;
+  max-height:340px;
+  overflow:hidden;
+}
+.m_el5{
+  object-position: left -100px;
+  zoom:150%;
+  /* max-height: 230px; */
+  /* overflow:hidden; */
+}
+
+.m_lx2{
+  zoom:90%;
+  margin:2.5% auto;
+}
+.m_lx5{
+  object-position: left top;
+}
+
+.m_gl1{
+  object-position: 50% 75%;
+}
+.m_gl3{
+  object-position: 50% 100%;
+}
+.m_gl5{
+  object-position: 50% 100%;
+}
+.m_gl6{
+  object-position: 50% 60%;
+}
+.m_gl7{
+  object-position: 50% 100%;
+}
+.m_gl8{
+  object-position: 50% 30%;
+}
+
+@media (max-width: 430px) {
+}
+
+.divided_line{
+  margin-bottom:6%;
+}
